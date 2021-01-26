@@ -1,0 +1,10 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sections.af8d2c12-531e-427d-a8a7-3227b6cb4e56:read'
+  - 'entrytypes.19bf281f-adc8-4323-8dd5-195bccc91c67:read'
+  - 'sections.af8d2c12-531e-427d-a8a7-3227b6cb4e56:edit'
+  - 'entrytypes.19bf281f-adc8-4323-8dd5-195bccc91c67:edit'
+  - 'entrytypes.19bf281f-adc8-4323-8dd5-195bccc91c67:create'
+  - 'entrytypes.19bf281f-adc8-4323-8dd5-195bccc91c67:save'
+  - 'entrytypes.19bf281f-adc8-4323-8dd5-195bccc91c67:delete'

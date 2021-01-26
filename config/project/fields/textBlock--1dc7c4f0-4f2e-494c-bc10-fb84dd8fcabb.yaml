@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: e95a596d-bd92-4516-bbe7-3b18213e79f5
+handle: textBlock
+instructions: ''
+name: 'Text Block'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

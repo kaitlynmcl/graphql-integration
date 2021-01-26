@@ -1,0 +1,19 @@
+{% set query = '{ entries ( section: "fakeTest", limit: 3) { title url header embed textBlock }} ' %}
+{% set tests = gql(query) %}
+
+ {# {% dd(tests) %}  #}
+
+ {% for test in tests.data.entries %}
+    <div style="max-width: 1000px; margin: 2rem auto 6rem; text-align: center;">
+        <li style="list-style-type: none; text-transform: uppercase;">
+            <a href="{{ test.url}}">{{ test.title }}</a>
+        </li>
+
+        <h3 style="font-weight: bold; color: #ff2b00">{{ test.header }}</h3>
+
+        <div style="margin: 0 auto">{{ test.embed | raw }}</div>
+
+        <p style="margin-top: 1rem; color: #ff7d7f">{{ test.textBlock }}</p>
+    </div>
+{% endfor %} 
+

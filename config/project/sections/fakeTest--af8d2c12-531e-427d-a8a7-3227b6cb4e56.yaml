@@ -1,0 +1,23 @@
+enableVersioning: true
+handle: fakeTest
+name: 'fake test'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d5e4c0bb-fd3d-4883-ad65-028f9e45401c:
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/index
+    uriFormat: 'fake-test/{slug}'
+type: channel
